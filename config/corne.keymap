@@ -44,15 +44,25 @@
         };
 
         hm: home_row_mods {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HOME_ROW_MODS";
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                quick-tap-ms = <0>;
-                flavor = "tap-preferred";
-                bindings = <&kp>, <&kp>;
-                retro-tap;
-            };
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <135>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        }
+
+//        hm: home_row_mods {
+//            compatible = "zmk,behavior-hold-tap";
+//            label = "HOME_ROW_MODS";
+//            #binding-cells = <2>;
+//            tapping-term-ms = <200>;
+//            quick-tap-ms = <0>;
+//            flavor = "tap-preferred";
+//            bindings = <&kp>, <&kp>;
+//            retro-tap;
+//        };
 
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
