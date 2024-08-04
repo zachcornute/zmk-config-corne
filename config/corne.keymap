@@ -51,7 +51,7 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-        }
+        };
 
 //        hm: home_row_mods {
 //            compatible = "zmk,behavior-hold-tap";
